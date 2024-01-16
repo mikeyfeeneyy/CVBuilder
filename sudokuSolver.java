@@ -5,7 +5,12 @@ public class sudokuSolver {
   private static final int GRID_SIZE = 9;
   
   public static void main(String[] args) {
-    
+
+
+	  //Please fill in the numbers corresponding to your sudoku sheet wherever needed on the board below. 
+	  //If you dont know the number then add a 0. 
+
+	  
     int[][] board = {
         {9, 0, 0, 0, 0, 1, 0, 0, 0},
         {0, 0, 0, 0, 0, 0, 0, 5, 0},
