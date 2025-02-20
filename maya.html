@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Here is your score</title>
+    </head>
+    <body>
+        
+
+    <h2>Here is your score</h2>
+
+    <p>
+        Congratulations, your scored <strong>6</strong> points.
+    </p>
+
+    <p>
+       <form action="http:127.0.0.1:5000/savedata" method="post">
+            <table>
+                <tr>
+                    <td>
+                        Please tell me your name:
+                    </td>
+                    <td>
+                        <input type="text" name="the_player" required>
+                        <input type="hidden" name="the_score" value=99>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        &nbsp;
+                    </td>
+                    <td>
+                        <input type="submit" value="Record Score">
+                    </td>
+                </tr>
+
+            </table>
+       </form> 
+    </p>
+
+
+    </body>
+</html>
